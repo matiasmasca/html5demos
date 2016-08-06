@@ -14,7 +14,7 @@ function support($support, $url) {
     if (in_array($browser, $live)) {
       $class .= ' live';
     } else if (in_array($browser, $nightly)) {
-      $class .= ' nightly';
+      $class .= ' nightly otra-clase';
     } else {
       $class .= ' none';
     }
